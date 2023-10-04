@@ -1,0 +1,13 @@
+prefix=C:/1_Projects/automobile/venv/Library
+exec_prefix=C:/1_Projects/automobile/venv/Library
+libdir=C:/1_Projects/automobile/venv/Library/lib
+sharedlibdir=C:/1_Projects/automobile/venv/Library/lib
+includedir=C:/1_Projects/automobile/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

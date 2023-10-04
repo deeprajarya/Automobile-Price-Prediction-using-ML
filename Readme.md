@@ -40,11 +40,10 @@ Make sure you have the following Python libraries installed:
 
 You can install these libraries using `pip` if they are not already installed:
 
-```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 
-## Usage
+# Usage
 
 1. Clone the project repository:
 
@@ -52,11 +51,12 @@ pip install pandas numpy matplotlib seaborn scikit-learn
    git clone https://github.com/deeprajarya/automobile-price-prediction.git
    cd automobile-price-prediction
 
-2. Run the python code
+2. Run the python code:
+   
+   ```bash
+   python automobile_price_prediction.py
 
-python automobile_price_prediction.py
-
-3. Follow the code comments and output to understand the data analysis and modeling process.
+4. Follow the code comments and output to understand the data analysis and modeling process.
 
 ## Author
 Deepraj Arya
